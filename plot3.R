@@ -26,7 +26,7 @@ dataSetFull$DateTime <- paste(dataSetFull$Date, dataSetFull$Time)
 
 dataSetFull$DateTime <- as.Date(dataSetFull$DateTime, format = "%d/%m/%Y %H:%M:%S")
 
-## Filter/Subset the data to contain the data only for
+## Filter/Subset the data to contain only the observations/data for
    ## date time greater than equal to "2007-02-01 00:00:00" and less than
       ## "2007-02-03 00:00:00"
 
